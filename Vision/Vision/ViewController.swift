@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController, UIAlertViewDelegate,UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
     @IBOutlet weak var imageView: UIImageView!
-    private let url = URL(string: "https://vision.googleapis.com/v1/images:annotate?key=AIzaSyC_fOhLeq_4radfL-CAtxroj9e0El41EgM")!
+    private let url = URL(string: "https://vision.googleapis.com/v1/images:annotate?key=YOUR_API_KEY")!
     var imageHeight: CGFloat = 0.0
     var imageWidth: CGFloat = 0.0
     var picker = UIImagePickerController()
